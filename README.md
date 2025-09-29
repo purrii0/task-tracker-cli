@@ -1,12 +1,6 @@
-Here’s a polished **README.md** for your Task Tracker CLI project:
-
----
-
 # Task Tracker CLI
 
 A simple command-line interface (CLI) tool to track and manage your tasks.
-
----
 
 ## Installation
 
@@ -42,8 +36,6 @@ task-cli add "Buy groceries"
 Output:
 `Task added successfully: {"id":1,"task":"Buy groceries","status":"todo"}`
 
----
-
 ### Update a task
 
 ```bash
@@ -53,8 +45,6 @@ task-cli update 1 "Buy groceries and cook dinner"
 Output:
 `Task updated successfully: {"id":1,"task":"Buy groceries and cook dinner","status":"todo"}`
 
----
-
 ### Delete a task
 
 ```bash
@@ -63,8 +53,6 @@ task-cli delete 1
 
 Output:
 `Task deleted successfully.`
-
----
 
 ### Mark task as in-progress
 
@@ -77,8 +65,6 @@ task-cli mark-in-progress 1
 ```bash
 task-cli mark-done 1
 ```
-
----
 
 ### List tasks
 

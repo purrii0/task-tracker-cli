@@ -30,7 +30,7 @@ node index.js <command> [arguments]
 ### Add a new task
 
 ```bash
-task-cli add "Buy groceries"
+node index.js add "Buy groceries"
 ```
 
 Output:
@@ -39,7 +39,7 @@ Output:
 ### Update a task
 
 ```bash
-task-cli update 1 "Buy groceries and cook dinner"
+node index.js update 1 "Buy groceries and cook dinner"
 ```
 
 Output:
@@ -48,7 +48,7 @@ Output:
 ### Delete a task
 
 ```bash
-task-cli delete 1
+node index.jsdelete 1
 ```
 
 Output:
@@ -57,13 +57,13 @@ Output:
 ### Mark task as in-progress
 
 ```bash
-task-cli mark-in-progress 1
+node index.js mark-in-progress 1
 ```
 
 ### Mark task as done
 
 ```bash
-task-cli mark-done 1
+node index.js mark-done 1
 ```
 
 ### List tasks
@@ -71,19 +71,19 @@ task-cli mark-done 1
 List only **todo** tasks:
 
 ```bash
-task-cli list todo
+node index.js list todo
 ```
 
 List only **in-progress** tasks:
 
 ```bash
-task-cli list in-progress
+node index.js list in-progress
 ```
 
 List only **done** tasks:
 
 ```bash
-task-cli list done
+node index.js list done
 ```
 
 ## Task Format
